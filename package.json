@@ -1,0 +1,29 @@
+{
+  "name": "streamerlol_server",
+  "version": "1.0.0",
+  "description": "Modulo para consumir Riot API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonyanders0N/StreamersLoL_Server.git"
+  },
+  "keywords": [
+    "lol",
+    "stream",
+    "matches",
+    "champion",
+    "twitch"
+  ],
+  "author": "Anderson Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonyanders0N/StreamersLoL_Server/issues"
+  },
+  "homepage": "https://github.com/Jonyanders0N/StreamersLoL_Server#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
