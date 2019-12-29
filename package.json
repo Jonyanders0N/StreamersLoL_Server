@@ -1,29 +1,28 @@
 {
-  "name": "streamerlol_server",
+  "name": "call-external-api",
   "version": "1.0.0",
-  "description": "Modulo para consumir Riot API",
-  "main": "index.js",
+  "description": "learn how to call an external api using node js.",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jonyanders0N/StreamersLoL_Server.git"
+    "test": "node app.js"
   },
   "keywords": [
-    "lol",
-    "stream",
-    "matches",
-    "champion",
-    "twitch"
+    "nodejs",
+    "api",
+    "call",
+    "rest",
+    "martand",
+    "singh",
+    "node",
+    "web",
+    "api"
   ],
-  "author": "Anderson Oliveira",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jonyanders0N/StreamersLoL_Server/issues"
-  },
-  "homepage": "https://github.com/Jonyanders0N/StreamersLoL_Server#readme",
+  "author": "Martand Singh (sniffer)",
+  "license": "MIT",
   "dependencies": {
-    "request": "^2.88.0"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "request": "^2.87.0"
   }
 }
